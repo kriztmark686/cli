@@ -328,14 +328,6 @@ class MockRegistry {
     this.nock = nock
   }
 
-  // full unpublish of an entire package
-  async unpublish( { manifest }) {
-    let nock = this.nock
-    const spec = npa(manifest.name)
-    nock = nock.delete(this.fullPath(`/${spec.escapedName}/-rev/${manifest._rev}`)).reply(201)
-    return nock
-  }
-
   async package ({ manifest, times = 1, query, tarballs }) {
     let nock = this.nock
     const spec = npa(manifest.name)
@@ -418,7 +410,6 @@ class MockRegistry {
       ...packument,
     }
   }
-
 }
 
 module.exports = MockRegistry
