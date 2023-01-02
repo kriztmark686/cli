@@ -1,5 +1,31 @@
 # Changelog
 
+## [9.3.0](https://github.com/npm/cli/compare/v9.2.0...v9.3.0) (2023-01-02)
+
+### Features
+
+* [`753b98e`](https://github.com/npm/cli/commit/753b98ef49e0410642cbfb1adbe06e7417e22d82) [#5261](https://github.com/npm/cli/pull/5261) rootless workspace init provides suggestion (@fritzy)
+
+### Bug Fixes
+
+* [`69f5ff8`](https://github.com/npm/cli/commit/69f5ff863fccf91935b1f62b514fd2621b761903) view: convert command to use output instead of console (@lukekarrys)
+* [`dc52222`](https://github.com/npm/cli/commit/dc52222123245d3faf2afa444d0223deb25e35b6) init: write package.json workspaces paths with / separators (@lukekarrys)
+* [`31af1aa`](https://github.com/npm/cli/commit/31af1aaa9f6427bd61d752d54801d873c6242af8) refactor `help` to use `@npmcli/promise-spawn` (@lukekarrys)
+* [`669ef94`](https://github.com/npm/cli/commit/669ef9476cac4679322bec69e7a55ff5992cf827) fund: correctly parse and use `which` config (@lukekarrys)
+* [`72e6d6f`](https://github.com/npm/cli/commit/72e6d6f638db03dbe3c965be79ce05cb6fda12fc) generate workspace support for docs pages (@lukekarrys)
+* [`450e50f`](https://github.com/npm/cli/commit/450e50fa555bfef869735b0195fe0a451e94eb3d) evaluate configs in command class (@lukekarrys)
+* [`28ec922`](https://github.com/npm/cli/commit/28ec922e18c7178e840fd28cbbf78f56f0a7a653) [#5946](https://github.com/npm/cli/pull/5946) replace rimraf with fs.rm (@lukekarrys)
+
+### Dependencies
+
+* [`ec09474`](https://github.com/npm/cli/commit/ec09474b371b0706d0d55a4968cf6ae545423568) [#5945](https://github.com/npm/cli/pull/5945) `minipass-fetch@3.0.1`
+* [Workspace](https://github.com/npm/cli/releases/tag/arborist-v6.1.6): `@npmcli/arborist@6.1.6`
+* [Workspace](https://github.com/npm/cli/releases/tag/config-v6.1.1): `@npmcli/config@6.1.1`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v5.0.7): `libnpmdiff@5.0.7`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v5.0.7): `libnpmexec@5.0.7`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v4.0.7): `libnpmfund@4.0.7`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v5.0.7): `libnpmpack@5.0.7`
+
 ## [9.2.0](https://github.com/npm/cli/compare/v9.1.3...v9.2.0) (2022-12-07)
 
 ### Features

@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.1.6](https://github.com/npm/cli/compare/arborist-v6.1.5...arborist-v6.1.6) (2023-01-02)
+
+### Bug Fixes
+
+* [`c52cf6b`](https://github.com/npm/cli/commit/c52cf6bc547268833cde2715fe4f6299240049f8) [#5960](https://github.com/npm/cli/pull/5960) properly handle directory, file, git and alias specs in overrides (@nlf)
+
 ## [6.1.5](https://github.com/npm/cli/compare/arborist-v6.1.4...arborist-v6.1.5) (2022-12-07)
 
 ### Bug Fixes
