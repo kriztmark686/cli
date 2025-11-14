@@ -58,7 +58,7 @@
     "just-safe-set": "^4.1.1",
     "minify-registry-metadata": "^3.0.0",
     "mkdirp": "^1.0.4",
-    "tap": "^16.3.2"
+    "tap": "^21.1.3"
   },
   "dependencies": {
     "@npmcli/arborist": "^6.1.5",
