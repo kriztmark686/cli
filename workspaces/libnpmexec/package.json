@@ -52,13 +52,13 @@
   "devDependencies": {
     "@npmcli/eslint-config": "^4.0.0",
     "@npmcli/mock-registry": "^1.0.0",
-    "@npmcli/template-oss": "4.11.0",
+    "@npmcli/template-oss": "4.28.1",
     "bin-links": "^4.0.1",
     "just-extend": "^6.1.1",
     "just-safe-set": "^4.1.1",
     "minify-registry-metadata": "^3.0.0",
     "mkdirp": "^1.0.4",
-    "tap": "^16.3.2"
+    "tap": "^21.5.0"
   },
   "dependencies": {
     "@npmcli/arborist": "^6.1.5",
